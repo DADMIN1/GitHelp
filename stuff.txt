@@ -1,6 +1,3 @@
-powerpoint link:
-https://1drv.ms/p/c/5c714e316cd973d3/EbIJ3MwAdZhHgefi0BfyqVUBdDssa3JFzEeC-qwMBBD3HA?e=tqvn4e
-
 note about the 'username' it asks you for during push:
 it can either be your profile (displayed) name, or the actual account-name
 
@@ -31,7 +28,7 @@ pull and merge with --ff
 pitfalls
 .git folders cannot be moved/copied
 remember, once a file has been committed, it's part of the repo forever.
-    don't commit binaries/unnecessary files (show winamp example)
+    don't commit binaries/unnecessary files
 
 
 
