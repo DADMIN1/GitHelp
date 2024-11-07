@@ -1,0 +1,12 @@
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
+
+# to show the current remotes
+git remote -v
+
+# clone your fork (as origin), then add the original repo as upstream:
+git remote add upstream https://github.com/ORIGINAL-OWNER/ORIGINAL-REPOSITORY.git
+
+# when you need to sync your fork with upstream, switch to your (fork) main branch, and merge like this:
+git merge --ff upstream/main
+
